@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Home from './components/Home';
+import Login from './components/Login';
+import Temp from './components/Temp';
+import Register from './components/Register'
+import AppNavigator from './components/AppNavigator';
+import LoadingModal from './components/LoadingModal';
 
-export default function App() {
+export default function App() { 
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+/*     <Login></Login>
+ */
+/*      <Temp></Temp>
+ */ 
+
+/*     <Register></Register>
+ */ 
+
+    <AppNavigator></AppNavigator>
+
+/*     <LoadingModal style={styles.nose}></LoadingModal>
+ */
+);
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
